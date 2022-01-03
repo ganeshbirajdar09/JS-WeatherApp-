@@ -1,5 +1,6 @@
+require("dotenv").config();
 const api = {
-  key: "9a838f384c0e1810d3c70dd02fa4df3f",
+  key: process.env.API_KEY,
   base: "https://api.openweathermap.org/data/2.5/",
 };
 
